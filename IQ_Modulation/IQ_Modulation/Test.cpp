@@ -7,6 +7,6 @@
 ********************************************/
 void main()
 {
-	CosFunction test(1,1);
+	CosFunction test(1,2);
 	test.Draw();
 }

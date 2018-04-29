@@ -16,7 +16,7 @@ void CosFunction::Draw()
 	{
 		temp = amp*cos(frequency*i*(pi/180.0)-phase); //cos에 라디안값 넣어줌
 		printf("cos(%3d) =  %+.2lf", i, temp);
-		for (int j = -20; j < temp * 10; j++)//cos 값 만큼 띄워줌
+		for (int j = -amp * 10; j < temp * 10; j++)//cos 값 만큼 띄워줌 *10은 가시성을 위함
 			printf(" ");
 		printf("*\n");//줄바꿈
 	}
